@@ -1,0 +1,4 @@
+[2025-07-30 17:03:13.116933] GRANT SELECT ON mysql.* TO 'testuser'@'localhost'
+[2025-07-30 17:04:01.379031] GRANT SELECT ON mysql.* TO 'testuser'@'localhost'
+[2025-07-30 17:04:27.993927] GRANT SELECT ON mysql.* TO 'testuser'@'localhost'
+[2025-07-30 17:04:40.997394] GRANT SELECT ON mysql.* TO 'testuser'@'localhost'
