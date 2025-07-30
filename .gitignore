@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.log
+*.sqlite
+audit_log.txt
+last_seen.txt
