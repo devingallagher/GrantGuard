@@ -5,9 +5,13 @@ from email.message import EmailMessage
 from dotenv import load_dotenv
 
 load_dotenv()
-EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')
-EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
-EMAIL_RECEIVER = os.getenv('EMAIL_RECEIVER')
+
+
+EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 LAST_SEEN_FILE = 'last_seen.txt'
 
