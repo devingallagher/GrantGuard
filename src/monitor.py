@@ -23,8 +23,8 @@ else:
 
 conn = pymysql.connect(
     host='localhost',
-    user='root',
-    password='P@ssw0rd1!',
+    user=DB_USER,
+    password=DB_PASSWORD,
     database='mysql'
 )
 
